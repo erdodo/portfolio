@@ -3,7 +3,9 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const app = express();
 const bodyParser = require('body-parser')
-const profile = require('./profile.json')
+const Profile = require("./schemas/Profile");
+const profileJson = require("./profile.json");
+
 
 app.use(bodyParser.json());
 app.use(function(req, res, next) {
@@ -14,16 +16,19 @@ app.use(function(req, res, next) {
     next();
 });
 app.get("/", (req, res) => {
-    res.json(profile);
+    Profile.find().then((data) => {
+        res.send(data);
+    })
 });
-console.log(process.env.MONGODB_PASS);
-mongoose.connect(`mongodb+srv://erdoganyesil3:${process.env.MONGODB_PASS}@testdb.eo1tnko.mongodb.net/?retryWrites=true&w=majority`, {
+
+
+mongoose.connect(`mongodb+srv://erdoganyesil3:${process.env.MONGODB_PASS}@portfolio.tgbprba.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
 })
     .then(() => console.log("MongoDB Connected"))
     .catch(err => console.log(err));
 
 
-app.listen(80, () => {
+app.listen(81, () => {
     console.log(`Example app listening on port `);
 });
