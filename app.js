@@ -16,6 +16,9 @@ app.use(function(req, res, next) {
     next();
 });
 app.get("/", (req, res) => {
+    res.send("Hello World!");
+})
+app.get("/get", (req, res) => {
     Profile.find().then((data) => {
         res.send(data);
     }).catch((err) => {
