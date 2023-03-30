@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
     next();
 });
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send(process.env.MONGODB_PASS);
 })
 app.get("/get", (req, res) => {
     Profile.find().then((data) => {
@@ -28,7 +28,7 @@ app.get("/get", (req, res) => {
 });
 
 
-mongoose.connect(`mongodb+srv://erdoganyesil3:Erdo112233.@portfolio.tgbprba.mongodb.net/?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://erdoganyesil3:${process.env.MONGODB_PASS}@portfolio.tgbprba.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
 })
     .then(() => console.log("MongoDB Connected"))
