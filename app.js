@@ -5,7 +5,7 @@ const app = express();
 
 
 app.get("/", (req, res) => {
-    res.send("Hello world?");
+    res.send("Hello world testr");
 });
 console.log(process.env.MONGODB_PASS);
 mongoose.connect(`mongodb+srv://erdoganyesil3:${process.env.MONGODB_PASS}@testdb.eo1tnko.mongodb.net/?retryWrites=true&w=majority`, {
