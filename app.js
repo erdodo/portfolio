@@ -16,7 +16,12 @@ app.use(function(req, res, next) {
     next();
 });
 app.get("/", (req, res) => {
-    res.send(process.env.MONGODB_PASS);
+    mongoose.connect(`mongodb+srv://erdoganyesil3:${process.env.MONGODB_PASS}@portfolio.tgbprba.mongodb.net/?retryWrites=true&w=majority`, {
+        useNewUrlParser: true,
+    })
+        .then(() => res.send("connected"))
+        .catch(err => res.send(err));
+    
 })
 app.get("/get", (req, res) => {
     Profile.find().then((data) => {
@@ -28,11 +33,7 @@ app.get("/get", (req, res) => {
 });
 
 
-mongoose.connect(`mongodb+srv://erdoganyesil3:${process.env.MONGODB_PASS}@portfolio.tgbprba.mongodb.net/?retryWrites=true&w=majority`, {
-    useNewUrlParser: true,
-})
-    .then(() => console.log("MongoDB Connected"))
-    .catch(err => console.log(err));
+
 
 
 app.listen(80, () => {
