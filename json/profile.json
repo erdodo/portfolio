@@ -1,0 +1,163 @@
+{
+  "logo": "/logo.png",
+  "name": "Erdoğan ",
+  "textList": [""],
+  "cvLink": "/",
+  "mainBackground": "/profil.jpeg",
+  "profileImage": "/profil2.jpg",
+  "job": "Computer Engineering ",
+  "email": "erdoganyesil3@gmail.com",
+  "socialLinks": [
+    {
+      "name": "My Linkedin Account",
+      "link": "https://www.linkedin.com/in/erdogan-yesil-7b7263b3/",
+      "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    } ,
+    {
+      "name": "My Github Account",
+      "link": "https://github.com/erdodo",
+      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "name": "My Student Github Account",
+      "link": "https://github.com/erdodo2",
+      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    }
+
+  ],
+  "skill": [
+    {
+      "name": "Frontend",
+      "list": [
+        {
+          "name": "Vue.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg"
+        },
+        {
+          "name": "React.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
+        },
+        {
+          "name": "Nuxt.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nuxt.png"
+        },
+        {
+          "name": "Next.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nextjs.png"
+        },
+        {
+          "name": "React Native",
+            "icon": "https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png"
+        },
+        {
+          "name": "JavaScript",
+            "icon": "https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
+        },
+        {
+          "name": "TypeScript",
+            "icon": "https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
+        },
+        {
+          "name": "Jquery",
+            "icon": "https://profilinator.rishav.dev/skills-assets/jquery.png"
+        }
+      ]
+    },
+    {
+      "name": "Design",
+        "list": [
+            {
+            "name": "Material Design",
+                "icon": "https://profilinator.rishav.dev/skills-assets/mui.png"
+            },
+            {
+            "name": "Element Plus",
+                "icon": "https://avatars.githubusercontent.com/u/68583457?s=200&v=4"
+            },
+            {
+            "name": "Tailwind CSS",
+                "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+            },
+            {
+            "name": "Bootstrap",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"
+            },
+            {
+            "name": "Vuetify",
+                "icon": "https://bestofjs.org/logos/vuetify.svg"
+            }
+        ]
+    },
+    {
+      "name": "Backend",
+        "list": [
+            {
+            "name": "Node.js",
+                "icon": "https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"
+            },
+            {
+            "name": "Express.js",
+                "icon": "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"
+            },
+            {
+            "name": "MongoDB",
+                "icon": "https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"
+            },
+            {
+            "name": "MySQL",
+                "icon": "https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg"
+            },
+            {
+            "name": "PHP",
+                "icon": "https://profilinator.rishav.dev/skills-assets/php-original.svg"
+            },
+            {
+            "name": "Codeigniter",
+                "icon": "https://profilinator.rishav.dev/skills-assets/codeigniter.svg"
+            }
+        ]
+    },
+    {
+      "name": "Other",
+        "list": [
+            {
+            "name": "Git",
+                "icon": "https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"
+            },
+            {
+            "name": "Linux",
+                "icon": "https://profilinator.rishav.dev/skills-assets/linux-original.svg"
+            },
+            {
+            "name": "Docker",
+                "icon": "https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg"
+            },
+            {
+            "name": "Nginx",
+                "icon": "https://profilinator.rishav.dev/skills-assets/nginx-original.svg"
+            },
+            {
+            "name": "Apache",
+                "icon": "https://download.logo.wine/logo/Apache_HTTP_Server/Apache_HTTP_Server-Logo.wine.png"
+            },
+            {
+            "name": "AWS",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
+            },
+            {
+            "name": "Netlify",
+                "icon": "https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png"
+            },
+            {
+            "name": "Vercel",
+                "icon": "https://logowik.com/content/uploads/images/vercel1868.jpg"
+            },
+          {
+            "name": "Arduino",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png"
+          }
+        ]
+    }
+
+  ]
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrap{
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+}
