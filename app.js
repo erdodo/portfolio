@@ -18,6 +18,9 @@ app.use(function(req, res, next) {
 app.get("/", (req, res) => {
     Profile.find().then((data) => {
         res.send(data);
+    }).catch((err) => {
+        console.log(err);
+        res.send(err);
     })
 });
 
