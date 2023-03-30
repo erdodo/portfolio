@@ -7,6 +7,7 @@ export default function Home() {
     <div>
         <Main />
         <About />
+        TEST
     </div>
   )
 }
