@@ -29,6 +29,6 @@ mongoose.connect(`mongodb+srv://erdoganyesil3:${process.env.MONGODB_PASS}@portfo
     .catch(err => console.log(err));
 
 
-app.listen(81, () => {
+app.listen(80, () => {
     console.log(`Example app listening on port `);
 });
