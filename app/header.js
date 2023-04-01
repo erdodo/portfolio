@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className=" px-32  bg-black/80 fixed w-screen z-20 ">
             <div className="flex flex-row justify-between">
-                <div  className="w-24 h-24">
+                <div  className="w-16 h-16">
                     <img src={profile.logo} />
                 </div>
                 <div className="flex flex-row items-center space-x-4">

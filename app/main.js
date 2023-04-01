@@ -1,8 +1,8 @@
 import {useEffect,useState} from "react";
-import profile from "../json/profile.json";
+import api from "@/app/api";
 export default function Main() {
-
-    const [textList, setTextList] = useState(profile.textList);
+    const [profile, setProfile] = useState({});
+    const [textList, setTextList] = useState([]);
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -14,8 +14,8 @@ export default function Main() {
     };
 
     TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
+        var i = this.loopNum % this.toRotate?.length;
+        var fullTxt = this.toRotate?.[i];
 
         if (this.isDeleting) {
             this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -60,13 +60,24 @@ export default function Main() {
     };
 
     useEffect(() => {
-        writter();
+        api.getData().then(data => {
+            setTextList(data.textList)
+            setProfile(data)
+        })
+
+
     }, []);
+
+    useEffect(() => {
+        if (textList.length > 0)
+            writter();
+
+    }, [textList]);
 
 
     return(
         <main style={{backgroundImage:'url('+profile.mainBackground+')'}} className="h-screen bg-fixed bg-center bg-no-repeat bg-cover w-screen relative  overflow-y-auto overflow-x-hidden">
-            <div className="bg-black/70  z-10 absolute w-screen h-screen flex flex-col items-center justify-center">
+            <div className="bg-black/70  z-10 absolute w-screen h-screen flex flex-col px-10 text-center items-center justify-center">
                 <h1 className="text-6xl font-bold text-white/90">I am {profile.name}</h1>
 
                 <a  className="typewrite mt-2" data-period="1200">
