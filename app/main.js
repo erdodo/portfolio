@@ -76,7 +76,7 @@ export default function Main() {
 
 
     return(
-        <main style={{backgroundImage:'url('+profile.mainBackground+')'}} className="h-screen bg-fixed bg-center bg-no-repeat bg-cover w-screen relative  overflow-y-auto overflow-x-hidden">
+        <main style={{backgroundImage:'url('+profile.mainBackground+')'}} className="h-[100vh] bg-fixed bg-center bg-no-repeat bg-cover w-screen relative  overflow-y-auto overflow-x-hidden">
             <div className="bg-black/70  z-10 absolute w-screen h-screen flex flex-col px-10 text-center items-center justify-center">
                 <h1 className="text-6xl font-bold text-white/90">I am {profile.name}</h1>
 

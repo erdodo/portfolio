@@ -1,8 +1,9 @@
 import api from "../api";
 import {useEffect, useState} from "react";
+import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 export default function Detail({item,setItem}) {
     const [detail, setDetail] = useState(null)
-    const baseUrl = "https://portfolio-git-backend-erdodo.vercel.app/"
+    const baseUrl = process.env.BACKEND_URL
     useEffect( () => {
         if(item){
             api.getProject(item).then((data)=>{
@@ -15,7 +16,7 @@ export default function Detail({item,setItem}) {
     return (
         <div className="flex flex-col">
             <span className="border-b w-full border-gray-200 pb-2 text-2xl">{item} Projects</span>
-            <div className=" justify-center grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 xl:grid-cols-2 3xl:grid-cols-3 max-h-[90vh] overflow-auto">
+            <div className=" justify-center grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 xl:grid-cols-2 3xl:grid-cols-3  overflow-auto"  style={{height:"calc(100vh - 200px)"}}>
 
                 {detail && detail.map((project, index) => (
                     <div key={index} className="flex flex-col m-5 shadow-lg shadow-gray-400 col-span-1 rounded-xl">

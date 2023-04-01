@@ -4,8 +4,18 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    backend:"localhost:80",
-    backend_: 'https://portfolio-git-backend-erdodo.vercel.app/',
+    BACKEND_URL:process.env.NODE_ENV ==='development'? 'http://localhost:80/':'https://portfolio-git-backend-erdodo.vercel.app/',
+    PRODUCTION_URL: "https://portfolio-git-backend-erdodo.vercel.app/",
+
+  },
+  serverRuntimeConfig: {
+    // Will only be available on the server side
+    mySecret: 'secret',
+    secondSecret: process.env.SECOND_SECRET, // Pass through env variables
+  },
+  publicRuntimeConfig: {
+    // Will be available on both server and client
+    staticFolder: '/static',
   },
 }
 

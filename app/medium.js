@@ -11,7 +11,7 @@ export default function Medium() {
 
     }, [])
     return(
-        <div className="bg-[#FDF0E2] w-screen">
+        <div className="bg-[#FDF0E2] w-screen h-[100vh]">
             <div className="flex flex-col px-4 md:px-32 lg:px-60 xl:px-72 2xl:px-96 py-10">
                 <div className="flex flex-row justify-between pb-3 border-b border-gray-300 mb-4">
                     <h1 className="text-3xl">My Medium Stories</h1>

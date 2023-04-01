@@ -1,6 +1,7 @@
-const baseUrl = "https://portfolio-git-backend-erdodo.vercel.app/";
+const baseUrl = process.env.BACKEND_URL;
 export default {
     getData: async () => {
+
         const response = await fetch(baseUrl);
         return await response.json();
     },

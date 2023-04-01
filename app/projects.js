@@ -11,8 +11,8 @@ export default function Projects() {
         setProfile(await api.getData())
     }, [])
     return (
-        <div className="px-4 md:px-20 py-5 bg-gray-200">
-            <div className="shadow-gray-100 shadow-2xl bg-white p-5 rounded-2xl">
+        <div className="px-4 md:px-20 py-5 bg-gray-200 " style={{height:"calc(100vh - 64px)"}}>
+            <div className="shadow-gray-100 shadow-2xl bg-white p-5 rounded-2xl block">
                 <div className="grid grid-cols-2">
                     <div className="col-span-2 lg:col-span-1 flex flex-col">
 
