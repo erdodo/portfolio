@@ -1,1 +1,369 @@
-{"logo":"/logo.png","name":"Erdoğan","textList":["Frontend Developer","Backend Developer","System Developer"],"cvLink":"/","mainBackground":"/profil.jpeg","profileImage":"/profil2.jpg","job":"Programmer","email":"erdoganyesil3@gmail.com","socialLinks":[{"name":"My Linkedin Account","link":"https://www.linkedin.com/in/erdogan-yesil-7b7263b3/","icon":"https://cdn-icons-png.flaticon.com/512/174/174857.png"},{"name":"My Github Account","link":"https://github.com/erdodo","icon":"https://cdn-icons-png.flaticon.com/512/25/25231.png"},{"name":"My Student Github Account","link":"https://github.com/erdodo2","icon":"https://cdn-icons-png.flaticon.com/512/25/25231.png"}],"skill":[{"name":"Frontend","list":[{"name":"Vue.js","icon":"https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg"},{"name":"React.js","icon":"https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"},{"name":"Nuxt.js","icon":"https://profilinator.rishav.dev/skills-assets/nuxt.png"},{"name":"Next.js","icon":"https://profilinator.rishav.dev/skills-assets/nextjs.png"},{"name":"React Native","icon":"https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png"},{"name":"JavaScript","icon":"https://profilinator.rishav.dev/skills-assets/javascript-original.svg"},{"name":"TypeScript","icon":"https://profilinator.rishav.dev/skills-assets/typescript-original.svg"},{"name":"Jquery","icon":"https://profilinator.rishav.dev/skills-assets/jquery.png"}]},{"name":"Design","list":[{"name":"Material Design","icon":"https://profilinator.rishav.dev/skills-assets/mui.png"},{"name":"Element Plus","icon":"https://avatars.githubusercontent.com/u/68583457?s=200&v=4"},{"name":"Tailwind CSS","icon":"https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"},{"name":"Bootstrap","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"},{"name":"Vuetify","icon":"https://bestofjs.org/logos/vuetify.svg"}]},{"name":"Backend","list":[{"name":"Node.js","icon":"https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"},{"name":"Express.js","icon":"https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"},{"name":"MongoDB","icon":"https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"},{"name":"MySQL","icon":"https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg"},{"name":"PHP","icon":"https://profilinator.rishav.dev/skills-assets/php-original.svg"},{"name":"Codeigniter","icon":"https://profilinator.rishav.dev/skills-assets/codeigniter.svg"}]},{"name":"Other","list":[{"name":"Git","icon":"https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"},{"name":"Linux","icon":"https://profilinator.rishav.dev/skills-assets/linux-original.svg"},{"name":"Docker","icon":"https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg"},{"name":"Nginx","icon":"https://profilinator.rishav.dev/skills-assets/nginx-original.svg"},{"name":"Apache","icon":"https://download.logo.wine/logo/Apache_HTTP_Server/Apache_HTTP_Server-Logo.wine.png"},{"name":"AWS","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"},{"name":"Netlify","icon":"https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png"},{"name":"Vercel","icon":"https://logowik.com/content/uploads/images/vercel1868.jpg"},{"name":"Arduino","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png"}]}],"projects":[{"name":"İşHesap","description":"Accounting application. It contains many programs such as e-invoice, current account tracking, bank account tracking, cash account tracking, stock tracking, personnel tracking.","url":"","image":"","category":["Vue","Element Plus","Bootstrap","Vuex","Full Calendar","ChartJS","Apex Chart"]},{"name":"MasaHesap","description":"Order tracking system specially made for cafes and restaurants.","url":"","image":"","category":["Vue","Element Plus","Vuex"]},{"name":"Fungi Turkey - Backend","description":"System specially made for Fungi turkey page","url":"","image":"","category":["php","codeigniter"]},{"name":"Fungi Turkey - Frontend","description":"System specially made for Fungi turkey page","url":"","image":"","category":["Nuxt"]},{"name":"Fungi Turkey - Admin Page","description":"System specially made for Fungi turkey page","url":"","image":"","category":["Vue"]},{"name":"Memodram Panel","description":"I created the admin page in this program, which was made for the purpose of patient follow-up in the field of health.","url":"","image":""}]}
+{
+  "logo": "/logo.png",
+  "name": "Erdoğan Yeşil",
+  "textList": [
+    "Frontend Developer",
+    "Backend Developer",
+    "System Developer"
+  ],
+  "cvLink": "/",
+  "mainBackground": "/profil.jpeg",
+  "profileImage": "/profil2.jpg",
+  "job": "Developer",
+  "email": "erdoganyesil3@gmail.com",
+  "socialLinks": [
+    {
+      "name": "My Linkedin Account",
+      "link": "https://www.linkedin.com/in/erdogan-yesil-7b7263b3/",
+      "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    },
+    {
+      "name": "My Github Account",
+      "link": "https://github.com/erdodo",
+      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "name": "My Student Github Account",
+      "link": "https://github.com/erdodo2",
+      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    }
+  ],
+  "skill": [
+    {
+      "name": "Frontend",
+      "list": [
+        {
+          "name": "Vue.js",
+          "icon": "https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg"
+        },
+        {
+          "name": "React.js",
+          "icon": "https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
+        },
+        {
+          "name": "Nuxt.js",
+          "icon": "https://profilinator.rishav.dev/skills-assets/nuxt.png"
+        },
+        {
+          "name": "Next.js",
+          "icon": "https://profilinator.rishav.dev/skills-assets/nextjs.png"
+        },
+        {
+          "name": "React Native",
+          "icon": "https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
+        },
+        {
+          "name": "Jquery",
+          "icon": "https://profilinator.rishav.dev/skills-assets/jquery.png"
+        }
+      ]
+    },
+    {
+      "name": "Design",
+      "list": [
+        {
+          "name": "Material Design",
+          "icon": "https://profilinator.rishav.dev/skills-assets/mui.png"
+        },
+        {
+          "name": "Element Plus",
+          "icon": "https://avatars.githubusercontent.com/u/68583457?s=200&v=4"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"
+        },
+        {
+          "name": "Vuetify",
+          "icon": "https://bestofjs.org/logos/vuetify.svg"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "list": [
+        {
+          "name": "Node.js",
+          "icon": "https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"
+        },
+        {
+          "name": "Express.js",
+          "icon": "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg"
+        },
+        {
+          "name": "PHP",
+          "icon": "https://profilinator.rishav.dev/skills-assets/php-original.svg"
+        },
+        {
+          "name": "Codeigniter",
+          "icon": "https://profilinator.rishav.dev/skills-assets/codeigniter.svg"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "list": [
+        {
+          "name": "Git",
+          "icon": "https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"
+        },
+        {
+          "name": "Linux",
+          "icon": "https://profilinator.rishav.dev/skills-assets/linux-original.svg"
+        },
+        {
+          "name": "Docker",
+          "icon": "https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg"
+        },
+        {
+          "name": "Nginx",
+          "icon": "https://profilinator.rishav.dev/skills-assets/nginx-original.svg"
+        },
+        {
+          "name": "Apache",
+          "icon": "https://download.logo.wine/logo/Apache_HTTP_Server/Apache_HTTP_Server-Logo.wine.png"
+        },
+        {
+          "name": "AWS",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
+        },
+        {
+          "name": "Netlify",
+          "icon": "https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png"
+        },
+        {
+          "name": "Vercel",
+          "icon": "https://logowik.com/content/uploads/images/vercel1868.jpg"
+        },
+        {
+          "name": "Arduino",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "İşHesap",
+      "description": "Accounting application. It contains many programs such as e-invoice, current account tracking, bank account tracking, cash account tracking, stock tracking, personnel tracking.",
+      "url": "https://ishesap.com",
+      "image": "/projects/ishesap.png",
+      "category": [
+        "Vue.js",
+        "Javascript",
+        "Element Plus",
+        "Bootstrap",
+        "Vuex",
+        "Full Calendar",
+        "ChartJS",
+        "Apex Chart",
+        "Jquery"
+      ]
+    },
+    {
+      "name": "MasaHesap",
+      "description": "Order tracking system specially made for cafes and restaurants.",
+      "url": "https://masahesap.com",
+      "image": "/projects/masahesap.png",
+      "category": [
+        "Vue.js",
+        "Javascript",
+        "Element Plus",
+        "Vuex"
+      ]
+    },
+    {
+      "name": "Fungi Turkey - Backend",
+      "description": "System specially made for Fungi turkey page",
+      "url": "https://fungiturkey.org",
+      "image": "/projects/fungiturkey.png",
+      "category": [
+        "PHP",
+        "Codeigniter"
+      ]
+    },
+    {
+      "name": "Fungi Turkey - Frontend",
+      "description": "System specially made for Fungi turkey page",
+      "url": "https://fungiturkey.org",
+      "image": "/projects/fungiturkey.png",
+      "category": [
+        "Nuxt.js",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Fungi Turkey - Admin Page",
+      "description": "System specially made for Fungi turkey page",
+      "url": "https://fungiturkey.org",
+      "image": "/projects/fungiturkey.png",
+      "category": [
+        "Vue.js",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Memodram Panel",
+      "description": "I created the admin page in this program, which was made for the purpose of patient follow-up in the field of health.",
+      "url": "",
+      "image": "/projects/memodram.png",
+      "category": [
+        "Vue.js",
+        "Apex Chart",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Shift Tracking App",
+      "description": "I worked with React as a front developer in this program, which was written to track staff shifts, entry and exit times and locations.",
+      "url": "",
+      "image": "/projects/mesai_takip.png",
+      "category": [
+        "React.js",
+        "Apex Chart",
+        "Tailwind CSS",
+        "Material Design",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "No Code Backend",
+      "description": "In this project, which is completely my own, I am preparing a panel for users to build a website without writing code.",
+      "url": "",
+      "image": "/projects/no_code_backend.png",
+      "category": [
+        "PHP",
+        "Codeigniter",
+        "Vue.js",
+        "MySQL",
+        "Bootstrap",
+        "Element Plus"
+      ]
+    },
+    {
+      "name": "One Shot",
+      "description": "",
+      "url": "one-shot-eight.vercel.app",
+      "image": "/projects/mesai_takip.png",
+      "category": [
+        "Vue.js",
+        "Javascript",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "E-commerce App",
+      "description": "",
+      "url": "https://github.com/erdodo2/react-native-ecommerce-app",
+      "image": "/projects/native_ecommerce.png",
+      "category": [
+        "React Native",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "News App",
+      "description": "",
+      "url": "https://github.com/erdodo2/react-native-news-app",
+      "image": "/projects/native_news.png",
+      "category": [
+        "React Native",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Weather App",
+      "description": "",
+      "url": "https://github.com/erdodo2/react-native-weather-app",
+      "image": "/projects/native_weather.png",
+      "category": [
+        "React Native",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "News App",
+      "description": "",
+      "url": "https://react-news-app-erdodo2.vercel.app",
+      "image": "/projects/react_news.png",
+      "category": [
+        "React.js",
+        "Javascript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Weather App",
+      "description": "",
+      "url": "https://react-weather-app-erdodo2.vercel.app",
+      "image": "/projects/react_weather.png",
+      "category": [
+        "React.js",
+        "Javascript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Porfolio",
+      "description": "",
+      "url": "https://portfolio-erdodo.vercel.app/",
+      "image": "/projects/portfolio.png",
+      "category": [
+        "Next.js",
+        "Javascript",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ]
+    }
+  ],
+  "medium":[
+    {
+      "date":"2023-03-25",
+      "title":"Merhaba Dünya",
+      "content":"expressJS kurulumu Herkese merhaba, sizinle bir proje yapalım mı? Ama bu proje öyle genel geçer bir proje olmasın. Mesela bir e-ticaret uygulaması yapalım, uygulama kısmı için benim de yeni öğrenmeye...",
+      "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-846360b634f",
+      "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pj3w2J7uL3zEbjSy_MagSQ.jpeg",
+      "category":[
+        "Hello World","React.js","Express.js","AWS","MongoDB"]
+    },
+    {
+      "date":"2023-03-26",
+      "title":"Backend’e başlıyoruz — Merhaba Dünya",
+      "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
+      "url":"https://medium.com/@erdodo/backende-ba%C5%9Fl%C4%B1yoruz-ce029ff4a14e",
+      "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8-Z5Vs-qU4d60ktUYaxWPQ.jpeg",
+      "category":[
+        "Hello World","React.js","Express.js","AWS","MongoDB"]
+    },
+    {
+      "date":"2023-03-26",
+      "title":"Veritabanı işlemleri — Merhaba Dünya",
+      "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
+      "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-3-veritaban%C4%B1-i%C5%9Flemleri-604a425e5516",
+      "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*TzqNlDn4b4hAeQggd94YzQ.jpeg",
+      "category":[
+        "Express.js","Postman","MongoDB","Mongoose"]
+    }
+  ]
+}

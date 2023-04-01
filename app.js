@@ -1,9 +1,11 @@
 const express = require("express");
+var path = require('path');
 require("dotenv").config();
 const app = express();
 const bodyParser = require('body-parser')
 const profileJson = require("./profile.json");
 const { JsonDB, Config } = require('node-json-db');
+
 
 let db = new JsonDB(new Config("profile.json", true, false, '/'));
 
@@ -15,6 +17,10 @@ app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
+
+var dir = path.join(__dirname, 'public');
+app.use(express.static(dir));
+
 app.get("/", async (req, res) => {
     var data = await db.getData("/");
     res.json(data)
@@ -26,6 +32,17 @@ app.get("/change", async (req, res) => {
     }).catch((err) => {
         res.send(err)
     })
+});
+app.get("/project/:name", async (req, res) => {
+    let name = req.params.name.replace('%20',' ')
+    let data = await db.getData("/projects");
+    let projects=[]
+    data.forEach((project) => {
+        if(project.category.find((category) => category.toLowerCase() === name.toLowerCase())){
+            projects.push(project)
+        }
+    })
+    res.json(projects)
 
 });
 
