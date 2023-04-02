@@ -25,9 +25,9 @@ app.use(function(req, res, next) {
 var dir = path.join(__dirname, 'public');
 
 app.use(express.static(dir));
-app.use('/', router);
+//app.use('/', router);
 
-/*let db = new JsonDB(new Config("profile.json", true, false, '/'));
+let db = new JsonDB(new Config("profile.json", true, false, '/'));
 app.get("/", async (req, res) => {
     if(req.query.lang === "tr") {
         var data = await db.getData("/");
@@ -64,7 +64,7 @@ app.get("/project/:name", async (req, res) => {
     })
     res.json(projects)
 
-});*/
+});
 
 
 app.listen(80, () => {
