@@ -2,7 +2,9 @@ const express = require("express");
 const router = express.Router();
 const firebase = require("./firebaseConf");
 
-
+router.get("/", async (req, res) => {
+    res.json(await firebase.getData(req.query.collection, req.query.docId))
+})
 router.post("/", async (req, res) => {
     res.json(await firebase.getData(req.query.collection, req.query.docId))
 })
