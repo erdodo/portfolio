@@ -9,12 +9,13 @@ export default function Header() {
         api.getData().then((data) => {
             setProfile(data);
         });
+        document.addEventListener("click", function(e){
+            if(e.target.className?.indexOf("langVisibleEl") === -1){
+                setLangVisible(false);
+            }
+        })
     }, [])
-    document.addEventListener("click", function(e){
-        if(e.target.className?.indexOf("langVisibleEl") === -1){
-            setLangVisible(false);
-        }
-    })
+
     return (
         <div className=" px-4 md:px-32  bg-black/80 fixed w-screen z-20 ">
             <div className="flex flex-row justify-between">
