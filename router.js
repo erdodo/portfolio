@@ -1,37 +1,22 @@
-const { initializeApp } = require ("firebase/app")
-const { getFirestore } = require("firebase/firestore");
-const firebaseConfig = {
-    apiKey: "AIzaSyCojnKEQEABC3Q7tcA-pfFsikqVZXnG0FA",
-    authDomain: "portfolio-erdodo.firebaseapp.com",
-    projectId: "portfolio-erdodo",
-    storageBucket: "portfolio-erdodo.appspot.com",
-    messagingSenderId: "1019121622631",
-    appId: "1:1019121622631:web:352e6d83e70112800efec2",
-    measurementId: "G-YYT0JMMPZG"
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-
-const { doc, getDoc,setDoc } = require("firebase/firestore");
-
-
 const express = require("express");
 const router = express.Router();
-const profileJson = require("./profile.json");
+const firebase = require("./firebaseConf");
+
 router.get("/", async (req, res) => {
-    const docRef = doc(db, "profile", "tr");
-    const docSnap = await getDoc(docRef);
-    if (docSnap.exists()) {
-        res.json( docSnap.data());
-    } else {
-        // doc.data() will be undefined in this case
-        console.log("No such document!");
-    }
+    res.render('index',{data:await firebase.getData(req.query.collection, req.query.docId)})
 })
-router.get("/set", async (req, res) => {
-    const docRef = doc(db, "profile", "en");
-    await setDoc(docRef, profileJson.en);
+router.post("/", async (req, res) => {
+    res.json(await firebase.getData(req.query.collection, req.query.docId))
+})
+
+router.post("/set", async (req, res) => {
+    await firebase.setData(req.query.collection, req.query.docId, req.body)
+    res.json(await firebase.getData(req.query.collection, req.query.docId))
+})
+
+router.delete("/delete", async (req, res) => {
+    await firebase.deleteData(req.query.collection, req.query.docId)
+    res.json(await firebase.getData(req.query.collection, req.query.docId))
 })
 
 module.exports = router;
