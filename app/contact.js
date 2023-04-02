@@ -10,7 +10,7 @@ export default function Contact() {
         });
     }, [])
     return (
-        <div className="px-4 md:px-20 py-5 bg-gray-200 overflow-auto flex flex-col justify-center" style={{height:"calc(100vh - 64px)"}}>
+        <div className="px-4 md:px-20 py-5 bg-gradient-to-r  from-green-500 to-sky-500 overflow-auto flex flex-col justify-center" style={{height:"calc(100vh - 64px)"}}>
             <div className="shadow-gray-100 shadow-2xl bg-white p-5 rounded-2xl overflow-auto">
                 <div className="grid grid-cols-2 gap-5">
                     <div className="col-span-2 lg:col-span-1 flex flex-col">
