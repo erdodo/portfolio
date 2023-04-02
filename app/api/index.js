@@ -1,8 +1,7 @@
 const baseUrl = process.env.BACKEND_URL;
 export default {
     getData: async () => {
-
-        const response = await fetch(baseUrl);
+        const response = await fetch(baseUrl+window.location.search);
         return await response.json();
     },
     getProject: async (name) => {

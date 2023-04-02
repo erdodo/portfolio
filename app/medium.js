@@ -18,23 +18,26 @@ export default function Medium() {
                     <a href="https://erdodo.medium.com/" target="_blank" className="text-xl text-gray-500">View All</a>
                 </div>
                 <div className=" mt-6">
-                    <div className="flex flex-col  ">
+                    <div className="flex flex-col overflow-auto " style={{height:"calc(100vh - 210px)"}}>
                         {medium.map((item, index) => (
-                           <div className="flex flex-row justify-between pb-4 border-b border-gray-300 mb-5 ">
-                               <div className="flex flex-col px-3 " style={{width: "-webkit-fill-available"}}>
-                                   <span className=" text-gray-500">{moment(item.date).fromNow()}</span>
-                                   <a href={item.url} target="_blank" className="text-3xl mb-2 hover:text-black text-gray-600 cursor-pointer">{item.title}</a>
-                                   <p className="text-md text-gray-600">{item.content}</p>
-                                   <div className="flex flex-row overflow-auto mt-4">
-                                       {item.category.map((tag, index) => (
-                                           <div className="bg-[#EBDED1] p-1 hover:bg-[#d8cdbf] px-4 rounded-xl mr-2">
-                                               <span className="text-sm whitespace-nowrap">{tag}</span>
-                                           </div>
-                                       ))}
+                           <div key={index} className="flex flex-col pb-4 border-b border-gray-300 mb-5 ">
+                               <div className="flex flex-col-reverse items-center md:flex-row justify-between ">
+                                   <div className="flex flex-col px-3 medium-content">
+                                       <span className=" text-gray-500">{moment(item.date).fromNow()}</span>
+                                       <a href={item.url} target="_blank" className="text-3xl mb-2 hover:text-black text-gray-600 cursor-pointer">{item.title}</a>
+                                       <p className="text-md text-gray-600">{item.content}</p>
+
+                                   </div>
+                                   <div className="flex flex-col  !w-[180px]">
+                                       <img src={item.image} alt="Erdoğan Yeşil" className="h-[180px] w-[180px] rounded"/>
                                    </div>
                                </div>
-                               <div className="flex flex-col  !w-[180px]">
-                                   <img src={item.image} alt="Erdoğan Yeşil" className="h-[180px] w-[180px] rounded"/>
+                               <div className="flex flex-row overflow-auto mt-4">
+                                   {item.category.map((tag, index) => (
+                                       <div key={index} className="bg-[#EBDED1] p-1 hover:bg-[#d8cdbf] px-4 rounded-xl mr-2">
+                                           <span className="text-sm whitespace-nowrap">{tag}</span>
+                                       </div>
+                                   ))}
                                </div>
                            </div>
                         ))}

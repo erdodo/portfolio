@@ -78,13 +78,17 @@ export default function Main() {
     return(
         <main style={{backgroundImage:'url('+profile.mainBackground+')'}} className="h-[100vh] bg-fixed bg-center bg-no-repeat bg-cover w-screen relative  overflow-y-auto overflow-x-hidden">
             <div className="bg-black/70  z-10 absolute w-screen h-screen flex flex-col px-10 text-center items-center justify-center">
-                <h1 className="text-6xl font-bold text-white/90">I am {profile.name}</h1>
+                <h1 className="text-6xl font-bold text-white/90">{profile.title}</h1>
 
                 <a  className="typewrite mt-2" data-period="1200">
                     <span className="wrap"></span>
                 </a>
-                <span className="p-3 border border-white mt-2 text-white rounded-xl px-5 hover:bg-white/0 hover:text-yellow-500 hover:border-yellow-500 cursor-pointer">Learn More</span>
-                <a href={profile.cvLink} className="p-3 border  mt-2  rounded-xl px-5 bg-white text-yellow-500 border-yellow-500 hover:bg-white/0 cursor-pointer">Look CV</a>
+                {profile.mainButtons && profile.mainButtons.map((item, index) => {
+                    return(
+                        <a key={index} href={item.link} target={item.target} className={item.classList}>{item.name}</a>
+                    )})
+                }
+
             </div>
 
 

@@ -1,6 +1,7 @@
 import api from "../api";
 import {useEffect, useState} from "react";
-import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
+import {AiFillGithub} from "react-icons/ai";
+import {BiLinkExternal} from "react-icons/bi";
 export default function Detail({item,setItem}) {
     const [detail, setDetail] = useState(null)
     const baseUrl = process.env.BACKEND_URL
@@ -21,13 +22,28 @@ export default function Detail({item,setItem}) {
                 {detail && detail.map((project, index) => (
                     <div key={index} className="flex flex-col m-5 shadow-lg shadow-gray-400 col-span-1 rounded-xl">
                         <div className="flex flex-col">
-                            <div className="mb-4 relative">
-                                <img src={baseUrl + project.image} alt={project.name +' Erdoğan Yeşil'}
-                                     className="rounded-t-xl hover:rounded-xl transition-all ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300" />
+                            <div className="mb-1 relative">
+                                {project.image &&
+                                    <img src={baseUrl + project.image} alt={project.name +' Erdoğan Yeşil'}
+                                         className="rounded-t-xl hover:rounded-xl transition-all ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300" />
+                                }
                             </div>
                             <div className="flex flex-col p-4">
                                 <h1 className="text-xl">{project.name}</h1>
-                                <a href={project.url} target="_blank" className="text-sky-600">{project.url}</a>
+                                <div className="flex flex-row items-center justify-between mt-2">
+                                    <div className={"flex flex-row items-center"}>
+
+                                        <a href={project.github} target="_blank" className="text-sky-600">
+                                            <AiFillGithub className="inline-block text-sky-600 hover:text-sky-800 text-4xl"/>
+                                        </a>
+                                        <span className="ml-2">{project.visible}</span>
+                                    </div>
+
+                                    <a href={project.url} target="_blank" className="text-sky-600">
+                                        <BiLinkExternal className="inline-block text-sky-600  hover:text-sky-800 text-4xl"/>
+                                    </a>
+                                </div>
+                                <hr className="my-1"/>
                                 <p className="text-sm">{project.description}</p>
 
                                 <div className="flex flex-row p-1 overflow-auto pb-3">
