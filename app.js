@@ -25,7 +25,7 @@ app.use(function(req, res, next) {
 var dir = path.join(__dirname, 'public');
 
 app.use(express.static(dir));
-//app.use('/', router);
+app.use('/firebase', router);
 
 let db = new JsonDB(new Config("profile.json", true, false, '/'));
 app.get("/", async (req, res) => {
