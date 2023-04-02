@@ -14,18 +14,35 @@
   "socialLinks": [
     {
       "name": "My Linkedin Account",
-      "link": "https://www.linkedin.com/in/erdogan-yesil-7b7263b3/",
-      "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+      "bgColor": "#0A66C2",
+      "color": "#fff",
+      "link": "https://www.linkedin.com/in/erdodo/",
+      "icon": "/linkedin.png",
+      "username": "erdodo"
     },
     {
       "name": "My Github Account",
+        "bgColor": "#333",
+      "color": "#f5f5f5",
       "link": "https://github.com/erdodo",
-      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+      "icon": "/github.png",
+      "username": "erdodo"
     },
     {
       "name": "My Student Github Account",
+      "bgColor": "#333",
+      "color": "#f5f5f5",
       "link": "https://github.com/erdodo2",
-      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+      "icon": "/github.png",
+        "username": "erdodo2"
+    },
+    {
+      "name": "My Medium Account",
+      "bgColor": "#FDF0E2",
+      "color": "#000",
+      "link": "https://erdodo.medium.com",
+      "icon": "/medium.png",
+      "username": "erdodo"
     }
   ],
   "skill": [
