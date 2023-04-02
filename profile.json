@@ -1,386 +1,1028 @@
 {
-  "logo": "/erdodo_logo_dark.png",
-  "name": "Erdoğan Yeşil",
-  "textList": [
-    "Frontend Developer",
-    "Backend Developer",
-    "System Developer"
-  ],
-  "cvLink": "/",
-  "mainBackground": "/profil.jpeg",
-  "profileImage": "/profil2.jpg",
-  "job": "Developer",
-  "email": "erdoganyesil3@gmail.com",
-  "socialLinks": [
-    {
-      "name": "My Linkedin Account",
-      "bgColor": "#0A66C2",
-      "color": "#fff",
-      "link": "https://www.linkedin.com/in/erdodo/",
-      "icon": "/linkedin.png",
-      "username": "erdodo"
-    },
-    {
-      "name": "My Github Account",
+  "en": {
+    "logo": "/erdodo_logo_dark.png",
+    "title": "I am Erdoğan Yeşil",
+    "headerLinks": [
+      {
+        "name": "Home",
+        "link": "#home"
+      },
+      {
+        "name": "Projects",
+        "link": "#projects"
+      },
+      {
+        "name": "Medium",
+        "link": "#medium"
+      },
+      {
+        "name": "Contact",
+        "link": "#contact"
+      }
+    ],
+    "name": "Erdoğan Yeşil",
+    "description": "Merhaba, ben Erdoğan Yeşil. Full Stack Developer olarak çalışıyorum. 2019 yılında yazılım sektörüne giriş yaptım. Şu an da yazılım sektöründe çalışmaktayım. Yazılım sektörüne giriş yaptığım ilk günden bu yana kendimi geliştirmeye çalışıyorum. Bu süreçte birçok dil ve teknolojiyi öğrendim. Bu öğrendiklerimi projelerimde kullanıyorum. Projelerimi paylaşmak istiyorum. Bu yüzden bu sitede projelerimi paylaşıyorum. Projelerimi paylaşmak isteyenler için bu sitede bir alan oluşturdum. Projelerinizi paylaşmak için bana ulaşabilirsiniz.",
+    "textList": [
+      "Frontend Developer",
+      "Backend Developer",
+      "System Developer"
+    ],
+    "cvLink": "/CV-English.pdf",
+    "mainBackground": "/profil.jpeg",
+    "mainButtons": [
+      {
+        "name": "Check out my CV",
+        "target": "_blank",
+        "link":  "https://portfolio-git-backend-erdodo.vercel.app/CV-Turkce.pdf",
+        "classList": "p-3 border  mt-2  rounded-xl px-5 bg-white text-yellow-500 border-yellow-500 hover:bg-white/0 cursor-pointer"
+      },
+      {
+        "name": "More information",
+        "link": "#projects",
+        "classList": "p-3 border border-white mt-2 text-white rounded-xl px-5 hover:bg-white/0 hover:text-yellow-500 hover:border-yellow-500 cursor-pointer"
+      }
+    ],
+    "profileImage": "/profil2.jpg",
+    "job": "Developer",
+    "email": "erdoganyesil3@gmail.com",
+    "socialLinks": [
+      {
+        "name": "My Linkedin Account",
+        "bgColor": "#0A66C2",
+        "color": "#fff",
+        "link": "https://www.linkedin.com/in/erdodo/",
+        "icon": "/linkedin.png",
+        "username": "erdodo"
+      },
+      {
+        "name": "My Github Account",
         "bgColor": "#333",
-      "color": "#f5f5f5",
-      "link": "https://github.com/erdodo",
-      "icon": "/github.png",
-      "username": "erdodo"
-    },
-    {
-      "name": "My Student Github Account",
-      "bgColor": "#333",
-      "color": "#f5f5f5",
-      "link": "https://github.com/erdodo2",
-      "icon": "/github.png",
+        "color": "#f5f5f5",
+        "link": "https://github.com/erdodo",
+        "icon": "/github.png",
+        "username": "erdodo"
+      },
+      {
+        "name": "My Student Github Account",
+        "bgColor": "#333",
+        "color": "#f5f5f5",
+        "link": "https://github.com/erdodo2",
+        "icon": "/github.png",
         "username": "erdodo2"
-    },
-    {
-      "name": "My Medium Account",
-      "bgColor": "#FDF0E2",
-      "color": "#000",
-      "link": "https://erdodo.medium.com",
-      "icon": "/medium.png",
-      "username": "erdodo"
-    }
-  ],
-  "skill": [
-    {
-      "name": "Frontend",
-      "list": [
-        {
-          "name": "Vue.js",
-          "icon": "https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg"
-        },
-        {
-          "name": "React.js",
-          "icon": "https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
-        },
-        {
-          "name": "Nuxt.js",
-          "icon": "https://profilinator.rishav.dev/skills-assets/nuxt.png"
-        },
-        {
-          "name": "Next.js",
-          "icon": "https://profilinator.rishav.dev/skills-assets/nextjs.png"
-        },
-        {
-          "name": "React Native",
-          "icon": "https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png"
-        },
-        {
-          "name": "JavaScript",
-          "icon": "https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
-        },
-        {
-          "name": "TypeScript",
-          "icon": "https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
-        },
-        {
-          "name": "Jquery",
-          "icon": "https://profilinator.rishav.dev/skills-assets/jquery.png"
-        }
-      ]
-    },
-    {
-      "name": "Design",
-      "list": [
-        {
-          "name": "Material Design",
-          "icon": "https://profilinator.rishav.dev/skills-assets/mui.png"
-        },
-        {
-          "name": "Element Plus",
-          "icon": "https://avatars.githubusercontent.com/u/68583457?s=200&v=4"
-        },
-        {
-          "name": "Tailwind CSS",
-          "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
-        },
-        {
-          "name": "Bootstrap",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"
-        },
-        {
-          "name": "Vuetify",
-          "icon": "https://bestofjs.org/logos/vuetify.svg"
-        }
-      ]
-    },
-    {
-      "name": "Backend",
-      "list": [
-        {
-          "name": "Node.js",
-          "icon": "https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"
-        },
-        {
-          "name": "Express.js",
-          "icon": "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"
-        },
-        {
-          "name": "MongoDB",
-          "icon": "https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"
-        },
-        {
-          "name": "MySQL",
-          "icon": "https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg"
-        },
-        {
-          "name": "PHP",
-          "icon": "https://profilinator.rishav.dev/skills-assets/php-original.svg"
-        },
-        {
-          "name": "Codeigniter",
-          "icon": "https://profilinator.rishav.dev/skills-assets/codeigniter.svg"
-        }
-      ]
-    },
-    {
-      "name": "Other",
-      "list": [
-        {
-          "name": "Git",
-          "icon": "https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"
-        },
-        {
-          "name": "Linux",
-          "icon": "https://profilinator.rishav.dev/skills-assets/linux-original.svg"
-        },
-        {
-          "name": "Docker",
-          "icon": "https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg"
-        },
-        {
-          "name": "Nginx",
-          "icon": "https://profilinator.rishav.dev/skills-assets/nginx-original.svg"
-        },
-        {
-          "name": "Apache",
-          "icon": "https://download.logo.wine/logo/Apache_HTTP_Server/Apache_HTTP_Server-Logo.wine.png"
-        },
-        {
-          "name": "AWS",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
-        },
-        {
-          "name": "Netlify",
-          "icon": "https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png"
-        },
-        {
-          "name": "Vercel",
-          "icon": "https://logowik.com/content/uploads/images/vercel1868.jpg"
-        },
-        {
-          "name": "Arduino",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png"
-        }
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "İşHesap",
-      "description": "Accounting application. It contains many programs such as e-invoice, current account tracking, bank account tracking, cash account tracking, stock tracking, personnel tracking.",
-      "url": "https://ishesap.com",
-      "image": "/projects/ishesap.png",
-      "category": [
-        "Vue.js",
-        "Javascript",
-        "Element Plus",
-        "Bootstrap",
-        "Vuex",
-        "Full Calendar",
-        "ChartJS",
-        "Apex Chart",
-        "Jquery"
-      ]
-    },
-    {
-      "name": "MasaHesap",
-      "description": "Order tracking system specially made for cafes and restaurants.",
-      "url": "https://masahesap.com",
-      "image": "/projects/masahesap.png",
-      "category": [
-        "Vue.js",
-        "Javascript",
-        "Element Plus",
-        "Vuex"
-      ]
-    },
-    {
-      "name": "Fungi Turkey - Backend",
-      "description": "System specially made for Fungi turkey page",
-      "url": "https://fungiturkey.org",
-      "image": "/projects/fungiturkey.png",
-      "category": [
-        "PHP",
-        "Codeigniter"
-      ]
-    },
-    {
-      "name": "Fungi Turkey - Frontend",
-      "description": "System specially made for Fungi turkey page",
-      "url": "https://fungiturkey.org",
-      "image": "/projects/fungiturkey.png",
-      "category": [
-        "Nuxt.js",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Fungi Turkey - Admin Page",
-      "description": "System specially made for Fungi turkey page",
-      "url": "https://fungiturkey.org",
-      "image": "/projects/fungiturkey.png",
-      "category": [
-        "Vue.js",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Memodram Panel",
-      "description": "I created the admin page in this program, which was made for the purpose of patient follow-up in the field of health.",
-      "url": "",
-      "image": "/projects/memodram.png",
-      "category": [
-        "Vue.js",
-        "Apex Chart",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Shift Tracking App",
-      "description": "I worked with React as a front developer in this program, which was written to track staff shifts, entry and exit times and locations.",
-      "url": "",
-      "image": "/projects/mesai_takip.png",
-      "category": [
-        "React.js",
-        "Apex Chart",
-        "Tailwind CSS",
-        "Material Design",
-        "Typescript"
-      ]
-    },
-    {
-      "name": "No Code Backend",
-      "description": "In this project, which is completely my own, I am preparing a panel for users to build a website without writing code.",
-      "url": "",
-      "image": "/projects/no_code_backend.png",
-      "category": [
-        "PHP",
-        "Codeigniter",
-        "Vue.js",
-        "MySQL",
-        "Bootstrap",
-        "Element Plus"
-      ]
-    },
-    {
-      "name": "One Shot",
-      "description": "",
-      "url": "one-shot-eight.vercel.app",
-      "image": "/projects/mesai_takip.png",
-      "category": [
-        "Vue.js",
-        "Javascript",
-        "Bootstrap"
-      ]
-    },
-    {
-      "name": "E-commerce App",
-      "description": "",
-      "url": "https://github.com/erdodo2/react-native-ecommerce-app",
-      "image": "/projects/native_ecommerce.png",
-      "category": [
-        "React Native",
-        "Typescript"
-      ]
-    },
-    {
-      "name": "News App",
-      "description": "",
-      "url": "https://github.com/erdodo2/react-native-news-app",
-      "image": "/projects/native_news.png",
-      "category": [
-        "React Native",
-        "Typescript"
-      ]
-    },
-    {
-      "name": "Weather App",
-      "description": "",
-      "url": "https://github.com/erdodo2/react-native-weather-app",
-      "image": "/projects/native_weather.png",
-      "category": [
-        "React Native",
-        "Typescript"
-      ]
-    },
-    {
-      "name": "News App",
-      "description": "",
-      "url": "https://react-news-app-erdodo2.vercel.app",
-      "image": "/projects/react_news.png",
-      "category": [
-        "React.js",
-        "Javascript",
-        "Tailwind CSS"
-      ]
-    },
-    {
-      "name": "Weather App",
-      "description": "",
-      "url": "https://react-weather-app-erdodo2.vercel.app",
-      "image": "/projects/react_weather.png",
-      "category": [
-        "React.js",
-        "Javascript",
-        "Tailwind CSS"
-      ]
-    },
-    {
-      "name": "Porfolio",
-      "description": "",
-      "url": "https://portfolio-erdodo.vercel.app/",
-      "image": "/projects/portfolio.png",
-      "category": [
-        "Next.js",
-        "Javascript",
-        "Node.js",
-        "Express.js",
-        "MongoDB"
-      ]
-    }
-  ],
-  "medium":[
-    {
-      "date":"2023-03-25",
-      "title":"Merhaba Dünya",
-      "content":"expressJS kurulumu Herkese merhaba, sizinle bir proje yapalım mı? Ama bu proje öyle genel geçer bir proje olmasın. Mesela bir e-ticaret uygulaması yapalım, uygulama kısmı için benim de yeni öğrenmeye...",
-      "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-846360b634f",
-      "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pj3w2J7uL3zEbjSy_MagSQ.jpeg",
-      "category":[
-        "Hello World","React.js","Express.js","AWS","MongoDB"]
-    },
-    {
-      "date":"2023-03-26",
-      "title":"Backend’e başlıyoruz — Merhaba Dünya",
-      "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
-      "url":"https://medium.com/@erdodo/backende-ba%C5%9Fl%C4%B1yoruz-ce029ff4a14e",
-      "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8-Z5Vs-qU4d60ktUYaxWPQ.jpeg",
-      "category":[
-        "Hello World","React.js","Express.js","AWS","MongoDB"]
-    },
-    {
-      "date":"2023-03-26",
-      "title":"Veritabanı işlemleri — Merhaba Dünya",
-      "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
-      "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-3-veritaban%C4%B1-i%C5%9Flemleri-604a425e5516",
-      "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*TzqNlDn4b4hAeQggd94YzQ.jpeg",
-      "category":[
-        "Express.js","Postman","MongoDB","Mongoose"]
-    }
-  ]
+      },
+      {
+        "name": "My Medium Account",
+        "bgColor": "#FDF0E2",
+        "color": "#000",
+        "link": "https://erdodo.medium.com",
+        "icon": "/medium.png",
+        "username": "erdodo"
+      }
+    ],
+    "skill": [
+      {
+        "name": "Frontend",
+        "list": [
+          {
+            "name": "Vue.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg"
+          },
+          {
+            "name": "React.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
+          },
+          {
+            "name": "Nuxt.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nuxt.png"
+          },
+          {
+            "name": "Next.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nextjs.png"
+          },
+          {
+            "name": "React Native",
+            "icon": "https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
+          },
+          {
+            "name": "Jquery",
+            "icon": "https://profilinator.rishav.dev/skills-assets/jquery.png"
+          }
+        ]
+      },
+      {
+        "name": "Design",
+        "list": [
+          {
+            "name": "Material Design",
+            "icon": "https://profilinator.rishav.dev/skills-assets/mui.png"
+          },
+          {
+            "name": "Element Plus",
+            "icon": "https://avatars.githubusercontent.com/u/68583457?s=200&v=4"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"
+          },
+          {
+            "name": "Vuetify",
+            "icon": "https://bestofjs.org/logos/vuetify.svg"
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "list": [
+          {
+            "name": "Node.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"
+          },
+          {
+            "name": "Express.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"
+          },
+          {
+            "name": "MySQL",
+            "icon": "https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg"
+          },
+          {
+            "name": "PHP",
+            "icon": "https://profilinator.rishav.dev/skills-assets/php-original.svg"
+          },
+          {
+            "name": "Codeigniter",
+            "icon": "https://profilinator.rishav.dev/skills-assets/codeigniter.svg"
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "list": [
+          {
+            "name": "Git",
+            "icon": "https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"
+          },
+          {
+            "name": "Linux",
+            "icon": "https://profilinator.rishav.dev/skills-assets/linux-original.svg"
+          },
+          {
+            "name": "Docker",
+            "icon": "https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg"
+          },
+          {
+            "name": "Nginx",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nginx-original.svg"
+          },
+          {
+            "name": "Apache",
+            "icon": "https://download.logo.wine/logo/Apache_HTTP_Server/Apache_HTTP_Server-Logo.wine.png"
+          },
+          {
+            "name": "AWS",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
+          },
+          {
+            "name": "Netlify",
+            "icon": "https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png"
+          },
+          {
+            "name": "Vercel",
+            "icon": "https://logowik.com/content/uploads/images/vercel1868.jpg"
+          },
+          {
+            "name": "Arduino",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "İşHesap",
+        "description": "Accounting application. It contains many programs such as e-invoice, current account tracking, bank account tracking, cash account tracking, stock tracking, personnel tracking.",
+        "url": "https://ishesap.com",
+        "image": "/projects/ishesap.png",
+        "github": "https://github.com/erdodo/ishesap-app-vue",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Javascript",
+          "Element Plus",
+          "Bootstrap",
+          "Vuex",
+          "Full Calendar",
+          "ChartJS",
+          "Apex Chart",
+          "Jquery"
+        ]
+      },
+      {
+        "name": "İşHesap Docs",
+        "description": "Accounting application. It contains many programs such as e-invoice, current account tracking, bank account tracking, cash account tracking, stock tracking, personnel tracking.",
+        "url": "https://ishesap.com/docs",
+        "image": "/projects/ishesap.png",
+        "github": "https://github.com/erdodo/ishesap-document-nuxt",
+        "visible": "Private",
+        "category": [
+          "Nuxt.js",
+          "Javascript",
+          "Element Plus",
+          "Bootstrap"
+        ]
+      },
+      {
+        "name": "MasaHesap",
+        "description": "Order tracking system specially made for cafes and restaurants.",
+        "url": "https://masahesap.com",
+        "image": "/projects/masahesap.png",
+        "github": "https://github.com/erdodo/adisyon-app-vue",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Javascript",
+          "Element Plus",
+          "Vuex"
+        ]
+      },
+      {
+        "name": "Fungi Turkey - Backend",
+        "description": "System specially made for Fungi turkey page",
+        "url": "https://fungiturkey.org",
+        "image": "/projects/fungiturkey.png",
+        "github": "https://github.com/erdodo/fungiturkey-backend-php",
+        "visible": "Private",
+        "category": [
+          "PHP",
+          "Codeigniter",
+          "Apache",
+          "MySQL"
+
+        ]
+      },
+      {
+        "name": "Fungi Turkey - Frontend",
+        "description": "System specially made for Fungi turkey page",
+        "url": "https://fungiturkey.org",
+        "image": "/projects/fungiturkey.png",
+        "github": "https://github.com/erdodo/fungiturkey-landing-nuxt",
+        "visible": "Private",
+        "category": [
+          "Nuxt.js",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "Fungi Turkey - Admin Page",
+        "description": "System specially made for Fungi turkey page",
+        "url": "https://fungiturkey.org",
+        "image": "/projects/fungiturkey.png",
+        "github": "https://github.com/erdodo/fungiturkey-admin-vue",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "Memodram Panel",
+        "description": "I created the admin page in this program, which was made for the purpose of patient follow-up in the field of health.",
+        "url": "",
+        "image": "/projects/memodram.png",
+        "github": "https://github.com/erdodo",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Apex Chart",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "Shift Tracking App",
+        "description": "I worked with React as a front developer in this program, which was written to track staff shifts, entry and exit times and locations.",
+        "url": "",
+        "image": "/projects/mesai_takip.png",
+        "github": "https://github.com/erdodo/mesai_takip-app-react",
+        "visible": "Private",
+        "category": [
+          "React.js",
+          "Apex Chart",
+          "Tailwind CSS",
+          "Material Design",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "No Code Backend",
+        "description": "In this project, which is completely my own, I am preparing a panel for users to build a website without writing code.",
+        "url": "backend.erdoganyesil.com",
+        "image": "/projects/no_code_backend.png",
+        "github": "https://github.com/erdodo/no_code_backend-app-php",
+        "visible": "Public",
+        "category": [
+          "PHP",
+          "Codeigniter",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "No Code Backend Admin",
+        "description": "No Code Backend app Admin Panel",
+        "url": "https://simple-admin-v2.vercel.app/",
+        "image": "/projects/no_code_backend_admin.png",
+        "github": "https://github.com/erdodo/simple-admin-v2",
+        "visible": "Public",
+        "category": [
+          "Vue.js",
+          "Bootstrap",
+          "Element Plus",
+          "Javascript",
+          "Vuex"
+        ]
+      },
+      {
+        "name": "One Shot",
+        "description": "",
+        "url": "one-shot-eight.vercel.app",
+        "image": "/projects/one_shot.png",
+        "github": "https://github.com/erdodo/one_shot-landing-vue",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Javascript",
+          "Bootstrap"
+        ]
+      },
+      {
+        "name": "E-commerce App",
+        "description": "",
+        "url": "https://github.com/erdodo2/react-native-ecommerce-app",
+        "image": "/projects/native_ecommerce.png",
+        "github": "https://github.com/erdodo2/react-native-ecommerce-app",
+        "visible": "Public",
+        "category": [
+          "React Native",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "News App",
+        "description": "",
+        "url": "https://github.com/erdodo2/react-native-news-app",
+        "image": "/projects/native_news.png",
+        "github": "https://github.com/erdodo2/react-native-news-app",
+        "visible": "Public",
+        "category": [
+          "React Native",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "Weather App",
+        "description": "",
+        "url": "https://github.com/erdodo2/react-native-weather-app",
+        "image": "/projects/native_weather.png",
+        "github": "https://github.com/erdodo2/react-native-weather-app",
+        "visible": "Public",
+        "category": [
+          "React Native",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "News App",
+        "description": "",
+        "url": "https://react-news-app-erdodo2.vercel.app",
+        "image": "/projects/react_news.png",
+        "github": "https://github.com/erdodo2/react-news-app",
+        "visible": "Public",
+        "category": [
+          "React.js",
+          "Javascript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "Weather App",
+        "description": "",
+        "url": "https://react-weather-app-erdodo2.vercel.app",
+        "image": "/projects/react_weather.png",
+        "github": "https://github.com/erdodo2/react-weather-app",
+        "visible": "Public",
+        "category": [
+          "React.js",
+          "Javascript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "Porfolio",
+        "description": "",
+        "url": "https://portfolio-erdodo.vercel.app/",
+        "image": "/projects/portfolio.png",
+        "github": "https://github.com/erdodo/portfolio",
+        "visible": "Public",
+        "category": [
+          "Next.js",
+          "Javascript",
+          "Node.js",
+          "Express.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Apple Home Kit",
+        "description": "",
+        "url": "",
+        "github": "https://github.com/erdodo/apple_home_kit-esp8266",
+        "image": "/projects/home_kit_app.png",
+        "visible": "Public",
+        "category": [
+          "Arduino",
+          "C++",
+          "ESP8266"
+        ]
+      },
+      {
+        "name": "erdodo",
+        "description": "All the projects I have shared here are backed up on github. All version control is done with Github. I've been working with github for about 3 years and I know a lot of commands.",
+        "url": "",
+        "github": "https://github.com/erdodo",
+        "visible": "",
+        "image": "",
+        "category": [
+          "Git"
+        ]
+      },
+      {
+        "name": "erdodo2",
+        "description": "I'm backing up languages \u200B\u200BI've just learned and projects that aren't large.",
+        "url": "",
+        "github": "https://github.com/erdodo2",
+        "visible": "",
+        "image": "",
+        "category": [
+          "Git"
+        ]
+      }
+    ],
+    "medium":[
+      {
+        "date":"2023-03-25",
+        "title":"Merhaba Dünya",
+        "content":"expressJS kurulumu Herkese merhaba, sizinle bir proje yapalım mı? Ama bu proje öyle genel geçer bir proje olmasın. Mesela bir e-ticaret uygulaması yapalım, uygulama kısmı için benim de yeni öğrenmeye...",
+        "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-846360b634f",
+        "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pj3w2J7uL3zEbjSy_MagSQ.jpeg",
+        "category":[
+          "Hello World","React.js","Express.js","AWS","MongoDB"]
+      },
+      {
+        "date":"2023-03-26",
+        "title":"Backend’e başlıyoruz — Merhaba Dünya",
+        "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
+        "url":"https://medium.com/@erdodo/backende-ba%C5%9Fl%C4%B1yoruz-ce029ff4a14e",
+        "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8-Z5Vs-qU4d60ktUYaxWPQ.jpeg",
+        "category":[
+          "Hello World","React.js","Express.js","AWS","MongoDB"]
+      },
+      {
+        "date":"2023-03-26",
+        "title":"Veritabanı işlemleri — Merhaba Dünya",
+        "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
+        "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-3-veritaban%C4%B1-i%C5%9Flemleri-604a425e5516",
+        "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*TzqNlDn4b4hAeQggd94YzQ.jpeg",
+        "category":[
+          "Express.js","Postman","MongoDB","Mongoose"]
+      }
+    ]
+  },
+  "tr": {
+    "logo": "/erdodo_logo_dark.png",
+    "title": "Ben Erdoğan Yeşil",
+    "name": "Erdoğan Yeşil",
+    "headerLinks": [
+      {
+        "name": "AnaSayfa",
+        "link": "#home"
+      },
+      {
+        "name": "Projeler",
+        "link": "#projects"
+      },
+      {
+        "name": "Medium",
+        "link": "#medium"
+      },
+      {
+        "name": "İletişim",
+        "link": "#contact"
+      }
+    ],
+    "description": "Merhaba, ben Erdoğan Yeşil. Full Stack Developer olarak çalışıyorum. 2019 yılında yazılım sektörüne giriş yaptım. Şu an da yazılım sektöründe çalışmaktayım. Yazılım sektörüne giriş yaptığım ilk günden bu yana kendimi geliştirmeye çalışıyorum. Bu süreçte birçok dil ve teknolojiyi öğrendim. Bu öğrendiklerimi projelerimde kullanıyorum. Projelerimi paylaşmak istiyorum. Bu yüzden bu sitede projelerimi paylaşıyorum. Projelerimi paylaşmak isteyenler için bu sitede bir alan oluşturdum. Projelerinizi paylaşmak için bana ulaşabilirsiniz.",
+    "textList": [
+      "Ön Yüz Geliştiricisi",
+      "Sistem Geliştiricisi",
+      "Arka Yüz Geliştiricisi"
+    ],
+    "cvLink": "/CV-Turkce.pdf",
+    "mainBackground": "/profil.jpeg",
+    "mainButtons": [
+      {
+        "name": "CV'me göz at",
+        "target": "_blank",
+        "link":  "https://portfolio-git-backend-erdodo.vercel.app/CV-Turkce.pdf",
+        "classList": "p-3 border  mt-2  rounded-xl px-5 bg-white text-yellow-500 border-yellow-500 hover:bg-white/0 cursor-pointer"
+      },
+      {
+        "name": "Daha Fazla Bilgi",
+        "link": "#projects",
+        "classList": "p-3 border border-white mt-2 text-white rounded-xl px-5 hover:bg-white/0 hover:text-yellow-500 hover:border-yellow-500 cursor-pointer"
+      }
+    ],
+    "profileImage": "/profil2.jpg",
+    "job": "Yazılım Gelişticisi",
+    "email": "erdoganyesil3@gmail.com",
+    "socialLinks": [
+      {
+        "name": "Linkedin Hesabım",
+        "bgColor": "#0A66C2",
+        "color": "#fff",
+        "link": "https://www.linkedin.com/in/erdodo/",
+        "icon": "/linkedin.png",
+        "username": "erdodo"
+      },
+      {
+        "name": "Github Hesabım",
+        "bgColor": "#333",
+        "color": "#f5f5f5",
+        "link": "https://github.com/erdodo",
+        "icon": "/github.png",
+        "username": "erdodo"
+      },
+      {
+        "name": "Öğrenci Github Hesabım",
+        "bgColor": "#333",
+        "color": "#f5f5f5",
+        "link": "https://github.com/erdodo2",
+        "icon": "/github.png",
+        "username": "erdodo2"
+      },
+      {
+        "name": "Medium Hesabım",
+        "bgColor": "#FDF0E2",
+        "color": "#000",
+        "link": "https://erdodo.medium.com",
+        "icon": "/medium.png",
+        "username": "erdodo"
+      }
+    ],
+    "skill": [
+      {
+        "name": "Ön Yüz Geliştirme",
+        "list": [
+          {
+            "name": "Vue.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg"
+          },
+          {
+            "name": "React.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
+          },
+          {
+            "name": "Nuxt.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nuxt.png"
+          },
+          {
+            "name": "Next.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nextjs.png"
+          },
+          {
+            "name": "React Native",
+            "icon": "https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
+          },
+          {
+            "name": "Jquery",
+            "icon": "https://profilinator.rishav.dev/skills-assets/jquery.png"
+          }
+        ]
+      },
+      {
+        "name": "Tasarım",
+        "list": [
+          {
+            "name": "Material Design",
+            "icon": "https://profilinator.rishav.dev/skills-assets/mui.png"
+          },
+          {
+            "name": "Element Plus",
+            "icon": "https://avatars.githubusercontent.com/u/68583457?s=200&v=4"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"
+          },
+          {
+            "name": "Vuetify",
+            "icon": "https://bestofjs.org/logos/vuetify.svg"
+          }
+        ]
+      },
+      {
+        "name": "Arka Yüz Geliştirme",
+        "list": [
+          {
+            "name": "Node.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg"
+          },
+          {
+            "name": "Express.js",
+            "icon": "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"
+          },
+          {
+            "name": "MySQL",
+            "icon": "https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg"
+          },
+          {
+            "name": "PHP",
+            "icon": "https://profilinator.rishav.dev/skills-assets/php-original.svg"
+          },
+          {
+            "name": "Codeigniter",
+            "icon": "https://profilinator.rishav.dev/skills-assets/codeigniter.svg"
+          }
+        ]
+      },
+      {
+        "name": "Diğer",
+        "list": [
+          {
+            "name": "Git",
+            "icon": "https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"
+          },
+          {
+            "name": "Linux",
+            "icon": "https://profilinator.rishav.dev/skills-assets/linux-original.svg"
+          },
+          {
+            "name": "Docker",
+            "icon": "https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg"
+          },
+          {
+            "name": "Nginx",
+            "icon": "https://profilinator.rishav.dev/skills-assets/nginx-original.svg"
+          },
+          {
+            "name": "Apache",
+            "icon": "https://download.logo.wine/logo/Apache_HTTP_Server/Apache_HTTP_Server-Logo.wine.png"
+          },
+          {
+            "name": "AWS",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
+          },
+          {
+            "name": "Netlify",
+            "icon": "https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png"
+          },
+          {
+            "name": "Vercel",
+            "icon": "https://logowik.com/content/uploads/images/vercel1868.jpg"
+          },
+          {
+            "name": "Arduino",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "İşHesap",
+        "description": "Accounting application. It contains many programs such as e-invoice, current account tracking, bank account tracking, cash account tracking, stock tracking, personnel tracking.",
+        "url": "https://ishesap.com",
+        "image": "/projects/ishesap.png",
+        "github": "https://github.com/erdodo/ishesap-app-vue",
+        "visible": "Gizli",
+        "category": [
+          "Vue.js",
+          "Javascript",
+          "Element Plus",
+          "Bootstrap",
+          "Vuex",
+          "Full Calendar",
+          "ChartJS",
+          "Apex Chart",
+          "Jquery"
+        ]
+      },
+      {
+        "name": "İşHesap Dokümantasyon",
+        "description": "Accounting application. It contains many programs such as e-invoice, current account tracking, bank account tracking, cash account tracking, stock tracking, personnel tracking.",
+        "url": "https://ishesap.com/docs",
+        "image": "/projects/ishesap.png",
+        "github": "https://github.com/erdodo/ishesap-document-nuxt",
+        "visible": "Gizli",
+        "category": [
+          "Nuxt.js",
+          "Javascript",
+          "Element Plus",
+          "Bootstrap"
+        ]
+      },
+      {
+        "name": "MasaHesap",
+        "description": "Order tracking system specially made for cafes and restaurants.",
+        "url": "https://masahesap.com",
+        "image": "/projects/masahesap.png",
+        "github": "https://github.com/erdodo/adisyon-app-vue",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Javascript",
+          "Element Plus",
+          "Vuex"
+        ]
+      },
+      {
+        "name": "Fungi Turkey - Backend",
+        "description": "System specially made for Fungi turkey page",
+        "url": "https://fungiturkey.org",
+        "image": "/projects/fungiturkey.png",
+        "github": "https://github.com/erdodo/fungiturkey-backend-php",
+        "visible": "Private",
+        "category": [
+          "PHP",
+          "Codeigniter",
+          "Apache",
+          "MySQL"
+
+        ]
+      },
+      {
+        "name": "Fungi Turkey - Frontend",
+        "description": "System specially made for Fungi turkey page",
+        "url": "https://fungiturkey.org",
+        "image": "/projects/fungiturkey.png",
+        "github": "https://github.com/erdodo/fungiturkey-landing-nuxt",
+        "visible": "Private",
+        "category": [
+          "Nuxt.js",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "Fungi Turkey - Admin Page",
+        "description": "System specially made for Fungi turkey page",
+        "url": "https://fungiturkey.org",
+        "image": "/projects/fungiturkey.png",
+        "github": "https://github.com/erdodo/fungiturkey-admin-vue",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "Memodram Panel",
+        "description": "I created the admin page in this program, which was made for the purpose of patient follow-up in the field of health.",
+        "url": "",
+        "image": "/projects/memodram.png",
+        "github": "https://github.com/erdodo",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Apex Chart",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "Shift Tracking App",
+        "description": "I worked with React as a front developer in this program, which was written to track staff shifts, entry and exit times and locations.",
+        "url": "",
+        "image": "/projects/mesai_takip.png",
+        "github": "https://github.com/erdodo/mesai_takip-app-react",
+        "visible": "Private",
+        "category": [
+          "React.js",
+          "Apex Chart",
+          "Tailwind CSS",
+          "Material Design",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "No Code Backend",
+        "description": "In this project, which is completely my own, I am preparing a panel for users to build a website without writing code.",
+        "url": "backend.erdoganyesil.com",
+        "image": "/projects/no_code_backend.png",
+        "github": "https://github.com/erdodo/no_code_backend-app-php",
+        "visible": "Public",
+        "category": [
+          "PHP",
+          "Codeigniter",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "No Code Backend Admin",
+        "description": "No Code Backend app Admin Panel",
+        "url": "https://simple-admin-v2.vercel.app/",
+        "image": "/projects/no_code_backend_admin.png",
+        "github": "https://github.com/erdodo/simple-admin-v2",
+        "visible": "Public",
+        "category": [
+          "Vue.js",
+          "Bootstrap",
+          "Element Plus",
+          "Javascript",
+          "Vuex"
+        ]
+      },
+      {
+        "name": "One Shot",
+        "description": "",
+        "url": "one-shot-eight.vercel.app",
+        "image": "/projects/one_shot.png",
+        "github": "https://github.com/erdodo/one_shot-landing-vue",
+        "visible": "Private",
+        "category": [
+          "Vue.js",
+          "Javascript",
+          "Bootstrap"
+        ]
+      },
+      {
+        "name": "E-commerce App",
+        "description": "",
+        "url": "https://github.com/erdodo2/react-native-ecommerce-app",
+        "image": "/projects/native_ecommerce.png",
+        "github": "https://github.com/erdodo2/react-native-ecommerce-app",
+        "visible": "Public",
+        "category": [
+          "React Native",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "News App",
+        "description": "",
+        "url": "https://github.com/erdodo2/react-native-news-app",
+        "image": "/projects/native_news.png",
+        "github": "https://github.com/erdodo2/react-native-news-app",
+        "visible": "Public",
+        "category": [
+          "React Native",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "Weather App",
+        "description": "",
+        "url": "https://github.com/erdodo2/react-native-weather-app",
+        "image": "/projects/native_weather.png",
+        "github": "https://github.com/erdodo2/react-native-weather-app",
+        "visible": "Public",
+        "category": [
+          "React Native",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "News App",
+        "description": "",
+        "url": "https://react-news-app-erdodo2.vercel.app",
+        "image": "/projects/react_news.png",
+        "github": "https://github.com/erdodo2/react-news-app",
+        "visible": "Public",
+        "category": [
+          "React.js",
+          "Javascript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "Weather App",
+        "description": "",
+        "url": "https://react-weather-app-erdodo2.vercel.app",
+        "image": "/projects/react_weather.png",
+        "github": "https://github.com/erdodo2/react-weather-app",
+        "visible": "Public",
+        "category": [
+          "React.js",
+          "Javascript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "Porfolio",
+        "description": "",
+        "url": "https://portfolio-erdodo.vercel.app/",
+        "image": "/projects/portfolio.png",
+        "github": "https://github.com/erdodo/portfolio",
+        "visible": "Public",
+        "category": [
+          "Next.js",
+          "Javascript",
+          "Node.js",
+          "Express.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Apple Home Kit",
+        "description": "",
+        "url": "",
+        "github": "https://github.com/erdodo/apple_home_kit-esp8266",
+        "image": "/projects/home_kit_app.png",
+        "visible": "Public",
+        "category": [
+          "Arduino",
+          "C++",
+          "ESP8266"
+        ]
+      },
+      {
+        "name": "erdodo",
+        "description": "All the projects I have shared here are backed up on github. All version control is done with Github. I've been working with github for about 3 years and I know a lot of commands.",
+        "url": "",
+        "github": "https://github.com/erdodo",
+        "visible": "",
+        "image": "",
+        "category": [
+          "Git"
+        ]
+      },
+      {
+        "name": "erdodo2",
+        "description": "I'm backing up languages \u200B\u200BI've just learned and projects that aren't large.",
+        "url": "",
+        "github": "https://github.com/erdodo2",
+        "visible": "",
+        "image": "",
+        "category": [
+          "Git"
+        ]
+      }
+    ],
+    "medium":[
+      {
+        "date":"2023-03-25",
+        "title":"Merhaba Dünya",
+        "content":"expressJS kurulumu Herkese merhaba, sizinle bir proje yapalım mı? Ama bu proje öyle genel geçer bir proje olmasın. Mesela bir e-ticaret uygulaması yapalım, uygulama kısmı için benim de yeni öğrenmeye...",
+        "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-846360b634f",
+        "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pj3w2J7uL3zEbjSy_MagSQ.jpeg",
+        "category":[
+          "Hello World","React.js","Express.js","AWS","MongoDB"]
+      },
+      {
+        "date":"2023-03-26",
+        "title":"Backend’e başlıyoruz — Merhaba Dünya",
+        "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
+        "url":"https://medium.com/@erdodo/backende-ba%C5%9Fl%C4%B1yoruz-ce029ff4a14e",
+        "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8-Z5Vs-qU4d60ktUYaxWPQ.jpeg",
+        "category":[
+          "Hello World","React.js","Express.js","AWS","MongoDB"]
+      },
+      {
+        "date":"2023-03-26",
+        "title":"Veritabanı işlemleri — Merhaba Dünya",
+        "content":"expressJS route yapısı, mongoDB bağlantısı, mongoDB veri ekleme, mongoDB veri listeleme Herkese merhabalar, bir önceki yazıda ilk merhaba dünya yazım ile beraber “express js”e giriş yapmıştım. Bu...",
+        "url":"https://medium.com/@erdodo/merhaba-d%C3%BCnya-3-veritaban%C4%B1-i%C5%9Flemleri-604a425e5516",
+        "image":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*TzqNlDn4b4hAeQggd94YzQ.jpeg",
+        "category":[
+          "Express.js","Postman","MongoDB","Mongoose"]
+      }
+    ]
+  }
 }

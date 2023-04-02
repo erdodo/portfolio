@@ -22,8 +22,13 @@ var dir = path.join(__dirname, 'public');
 app.use(express.static(dir));
 
 app.get("/", async (req, res) => {
-    var data = await db.getData("/");
-    res.json(data)
+    if(req.query.lang === "tr") {
+        var data = await db.getData("/");
+        res.json(data.tr)
+    } else {
+        var data = await db.getData("/");
+        res.json(data.en)
+    }
 })
 app.get("/change", async (req, res) => {
     await db.push("/"+req.query.key, req.query.value).then(async () => {
@@ -35,7 +40,12 @@ app.get("/change", async (req, res) => {
 });
 app.get("/project/:name", async (req, res) => {
     let name = req.params.name.replace('%20',' ')
-    let data = await db.getData("/projects");
+    let data=[]
+    if(req.query.lang === "tr") {
+        data = await db.getData("/tr/projects");
+    } else {
+        data = await db.getData("/en/projects");
+    }
     let projects=[]
     data.forEach((project) => {
         if(project.category.find((category) => category.toLowerCase() === name.toLowerCase())){
