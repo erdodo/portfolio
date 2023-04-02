@@ -5,6 +5,7 @@ const app = express();
 const bodyParser = require('body-parser')
 const profileJson = require("./profile.json");
 const { JsonDB, Config } = require('node-json-db');
+const router = require("./router");
 
 
 let db = new JsonDB(new Config("profile.json", true, false, '/'));
@@ -19,9 +20,11 @@ app.use(function(req, res, next) {
 });
 
 var dir = path.join(__dirname, 'public');
-app.use(express.static(dir));
 
+app.use(express.static(dir));
+app.use('/fire', router);
 app.get("/", async (req, res) => {
+
     if(req.query.lang === "tr") {
         var data = await db.getData("/");
         res.json(data.tr)
