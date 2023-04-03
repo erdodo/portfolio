@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import Detail from "@/projects/detail";
-import Dialog from "@/projects/dialog";
+import Detail from "@/app/projects/detail";
+import Dialog from "@/app/projects/dialog";
 export default function Projects({profile}) {
     const [detailItem, setDetailItem] = useState("Vue.js")
     const [detailShow, setDetailShow] = useState(false)

@@ -3,6 +3,7 @@ import Main from "@/app/main";
 import Projects from "@/app/projects";
 import Medium from "@/app/medium";
 import Contact from "@/app/contact";
+import About from "@/app/about";
 import {useEffect, useState} from "react";
 import api from "@/api";
 export default function Home({}) {
@@ -26,6 +27,10 @@ export default function Home({}) {
         </div>
         <div className="snap-start scroll-mt-[64px] w-screen bg-white"  id="contact"   style={{height:"calc(100vh - 64px)"}}>
             <Contact profile={profile} />
+        </div>
+        <div className="snap-start scroll-mt-[64px] w-screen bg-white"  id="about"   style={{height:"calc(100vh - 64px)"}}>
+
+            <About profile={profile} />
         </div>
 
 

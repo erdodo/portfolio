@@ -1,9 +1,9 @@
-import api from "../api";
+import api from "../../api";
 import {useEffect, useState} from "react";
 import process from "next/dist/build/webpack/loaders/resolve-url-loader/lib/postcss";
 export default function Dialog({item,setItem,show, setShow}) {
     const [detail, setDetail] = useState(null)
-    const baseUrl = process.env.BACKEND_URL
+    const baseUrl = process.env.PHOTO_URL
     useEffect( () => {
         if(item){
             api.getProject(item).then((data)=>{

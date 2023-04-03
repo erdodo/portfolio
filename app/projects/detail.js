@@ -1,4 +1,4 @@
-import api from "../api";
+import api from "../../api";
 import {useEffect, useState} from "react";
 import {AiFillGithub} from "react-icons/ai";
 import {BiLinkExternal} from "react-icons/bi";
@@ -18,7 +18,7 @@ export default function Detail({item,setItem}) {
     return (
         <div className="flex flex-col">
             <span className="border-b w-full border-gray-200 pb-2 text-2xl">{item} Projects</span>
-            <div className=" justify-center grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 xl:grid-cols-2 3xl:grid-cols-3  overflow-auto"  style={{height:"calc(100vh - 200px)"}}>
+            <div className=" grid grid-cols-3  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 xl:grid-cols-2 3xl:grid-cols-3  overflow-auto"  style={{height:"calc(100vh - 200px)"}}>
 
                 {!!detail && detail.map((project, index) => (
                     <div key={index} className="flex flex-col m-5 shadow-lg shadow-gray-400 col-span-1 rounded-xl">
