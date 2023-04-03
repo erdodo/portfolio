@@ -1,14 +1,10 @@
 "use client"
-import api from "@/app/api";
 import {useEffect,useState} from "react";
 import {IoLanguage} from "react-icons/io5";
-export default function Header() {
-    const [profile, setProfile] = useState({});
+export default function Header({profile}) {
     const [langVisible, setLangVisible] = useState(false);
     useEffect(() => {
-        api.getData().then((data) => {
-            setProfile(data);
-        });
+
         document.addEventListener("click", function(e){
             if(e.target.className?.indexOf("langVisibleEl") === -1){
                 setLangVisible(false);
@@ -23,7 +19,7 @@ export default function Header() {
                     <img src={profile.logo} alt={"Erdoğan Yeşil"} />
                 </div>
                 <div className="flex flex-row items-center ">
-                    {profile.headerLinks && profile.headerLinks.map((item, index) => {
+                    {!!profile.headerLinks && profile.headerLinks.map((item, index) => {
                         return(
                             <a key={index} className="text-white hover:bg-white/30 rounded-lg p-2 mx-1" href={item.link}>{item.name}</a>
                         )

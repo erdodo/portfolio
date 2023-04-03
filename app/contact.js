@@ -1,14 +1,8 @@
 import {useState,useEffect} from 'react'
-import api from "@/app/api";
-export default function Contact() {
+import api from "@/api";
+export default function Contact({profile}) {
     const [title, setTitle] = useState("");
     const [message, setMessage] = useState("");
-    const [profile, setProfile] = useState({});
-    useEffect(() => {
-        api.getData().then((data) => {
-            setProfile(data);
-        });
-    }, [])
     return (
         <div className="px-4 md:px-20 py-5 bg-gradient-to-r  from-green-500 to-sky-500 overflow-auto flex flex-col justify-center" style={{height:"calc(100vh - 64px)"}}>
             <div className="shadow-gray-100 shadow-2xl bg-white p-5 rounded-2xl overflow-auto">
@@ -38,7 +32,7 @@ export default function Contact() {
                         <h1 className="text-3xl">Social Media</h1>
                         <hr className="my-2"/>
                         <div className="flex flex-col my-1">
-                            {profile.socialLinks && profile.socialLinks.map((social) => {
+                            {!!profile.socialLinks && profile.socialLinks.map((social) => {
                                 return(
                                     <div className={`flex flex-row my-1 opacity-90 hover:opacity-100 cursor-pointer p-4 rounded-lg`}
                                          style={{color:social.color,backgroundColor:social.bgColor}}

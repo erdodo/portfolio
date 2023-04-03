@@ -1,14 +1,25 @@
+"use client";
 import './globals.css'
 import Header from "@/app/header";
+import Head from "@/app/head";
+import {useEffect, useState} from "react";
+import api from "@/api";
+export default function RootLayout({children}) {
+  const [profile, setProfile] = useState({});
+  useEffect(() => {
 
-export default function RootLayout({ children }) {
+    api.getData().then((data) => {
+      setProfile(data)
+    })
+  }, []);
   return (
     <html lang="en">
-    <head />
+    <Head />
 
       <body className="overflow-x-hidden">
-      <Header />
+      <Header profile={profile} />
       {children}
+
       </body>
     </html>
   )

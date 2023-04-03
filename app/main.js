@@ -1,8 +1,5 @@
-import {useEffect,useState} from "react";
-import api from "@/app/api";
-export default function Main() {
-    const [profile, setProfile] = useState({});
-    const [textList, setTextList] = useState([]);
+import {useEffect} from "react";
+export default function Main({profile,textList}) {
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -59,19 +56,11 @@ export default function Main() {
         document.body.appendChild(css);
     };
 
-    useEffect(() => {
-        api.getData().then(data => {
-            setTextList(data.textList)
-            setProfile(data)
-        })
 
-
-    }, []);
 
     useEffect(() => {
-        if (textList.length > 0)
+        if (textList && textList.length > 0)
             writter();
-
     }, [textList]);
 
 
@@ -83,9 +72,9 @@ export default function Main() {
                 <a  className="typewrite mt-2" data-period="1200">
                     <span className="wrap"></span>
                 </a>
-                {profile.mainButtons && profile.mainButtons.map((item, index) => {
+                {!!profile.mainButtons && profile.mainButtons.map((item, index) => {
                     return(
-                        <a key={index} href={item.link} target={item.target} className={item.classList}>{item.name}</a>
+                        <a key={index} href={item.link} target={item.target} className={item.classes}>{item.name}</a>
                     )})
                 }
 

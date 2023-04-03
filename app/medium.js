@@ -1,15 +1,6 @@
-import {useEffect, useState} from "react";
-import api from "@/app/api";
 import moment from "moment";
 
-export default function Medium() {
-    const [medium, setMedium] = useState([])
-    useEffect(async () => {
-        api.getData().then((data) => {
-            setMedium(data.medium)
-        })
-
-    }, [])
+export default function Medium({profile}) {
     return(
         <div className="bg-[#FDF0E2] w-screen h-[100vh]">
             <div className="flex flex-col px-4 md:px-32 lg:px-60 xl:px-72 2xl:px-96 py-10">
@@ -19,7 +10,7 @@ export default function Medium() {
                 </div>
                 <div className=" mt-6">
                     <div className="flex flex-col overflow-auto " style={{height:"calc(100vh - 210px)"}}>
-                        {medium.map((item, index) => (
+                        {!!profile.medium &&  profile.medium.map((item, index) => (
                            <div key={index} className="flex flex-col pb-4 border-b border-gray-300 mb-5 ">
                                <div className="flex flex-col-reverse items-center md:flex-row justify-between ">
                                    <div className="flex flex-col px-3 medium-content">
@@ -33,7 +24,7 @@ export default function Medium() {
                                    </div>
                                </div>
                                <div className="flex flex-row overflow-auto mt-4">
-                                   {item.category.map((tag, index) => (
+                                   { !!item.category &&  item.category.map((tag, index) => (
                                        <div key={index} className="bg-[#EBDED1] p-1 hover:bg-[#d8cdbf] px-4 rounded-xl mr-2">
                                            <span className="text-sm whitespace-nowrap">{tag}</span>
                                        </div>
