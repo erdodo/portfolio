@@ -1,11 +1,16 @@
+import axios from "axios";
 const baseUrl = process.env.BACKEND_URL;
 export default {
     getData: async () => {
-        const response = await fetch(baseUrl+window.location.search);
-        return await response.json();
+        const lang = window.location.search==='?lang=tr'? 'tr' : 'en'
+        await axios.post(baseUrl +'/profile/'+lang).then((response) => {
+            return response.data
+        })
     },
     getProject: async (name) => {
-        const response = await fetch(baseUrl+"project/"+name);
-        return await response.json();
+        const lang = window.location.search==='?lang=tr'? 'tr' : 'en'
+        await axios.post(baseUrl +'/project/' +lang+'/'+name).then((response) => {
+            return response.data.projects
+        })
     }
 }

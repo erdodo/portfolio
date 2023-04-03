@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    BACKEND_URL:process.env.NODE_ENV ==='development'? 'http://localhost:80/':'https://portfolio-git-backend-erdodo.vercel.app/',
+    BACKEND_URL:process.env.NODE_ENV ==='development'? 'http://localhost:80/':'https://vercel-express-app-five.vercel.app/api/',
     PRODUCTION_URL: "https://portfolio-git-backend-erdodo.vercel.app/",
 
   },
